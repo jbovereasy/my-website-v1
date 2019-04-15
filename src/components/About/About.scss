@@ -1,0 +1,84 @@
+#aboutPage {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background: black;
+  color: white;
+  position: relative;
+}
+
+.jbaltazar {
+  margin: 0.5% 0.5%;
+  border: 4px solid;
+  height: 165px;
+  width: 165px;
+  border-top-color: yellow;
+  border-right-color: purple;
+  border-bottom-color: yellow;
+  border-left-color: purple;
+  border-radius: 50%;
+  &:hover {
+    animation: spin 9s linear 0s infinite;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.content {
+  font-family: "Open Sans", sans-serif;
+  padding: 2%;
+}
+
+.personalLinks {
+  a {
+    i {
+      margin: 0 0.3%;
+
+      font-size: 40px;
+      color: #fff;
+      &:hover {
+        color: #00a0ff;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+.resume {
+  color: white;
+  &:hover {
+    color: dodgerblue;
+  }
+}
+
+span.hoverResume {
+  height: 0;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  &:after {
+    content: attr(popuptext);
+    border-radius: 3px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 500ms ease;
+    white-space: nowrap;
+    max-height: 0;
+  }
+  &:hover:after {
+    opacity: 1;
+    top: 1.2em;
+    max-height: 200px;
+    padding: 0.3em;
+  }
+}

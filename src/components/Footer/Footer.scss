@@ -1,7 +1,56 @@
 #foot {
+  font-family: "Bangers", cursive;
+  padding: 10px;
+  height: 60px;
+  // position: fixed;
+  // bottom: 0;
+  // width: 100%;
+  background-color: white;
+}
+
+.ul-container {
+  display: flex;
+  margin-bottom: -100px;
+  padding-left: 0;
+  list-style: none;
+  justify-content: center;
+  a {
+    margin: 0 25px;
+    display: inline-block;
+  }
+  i {
+    color: black;
+    &:hover {
+      color: dodgerblue;
+      transition: 0.3s;
+    }
+  }
+}
+
+.reactJS {
+  width: 50%;
   color: black;
-  bottom: 1%;
-  width: 99%;
-  position: fixed;
-  font-size: 0.8rem;
+  margin-top: 2%;
+  margin-right: 0;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 600px) {
+  .ul-container {
+    float: left;
+  }
+  .reactJS {
+    float: right;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  #foot {
+    padding: 0;
+    height: 80px;
+  }
+  .ul-container {
+    padding-top: 25px;
+  }
 }

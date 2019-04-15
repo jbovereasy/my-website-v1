@@ -4,25 +4,15 @@ import "./Footer.scss";
 const Footer = props => {
   return (
     <div id="foot">
-      <p>Not affiliated with LA Lakers</p>
       <footer className="container">
-        {/* <ul>
+        <ul className="ul-container">
           <li>
             <a
               href="https://twitter.com/jbaltazar03"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/jbaltazar03"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
+              <i class="fab fa-twitter-square fa-2x" />
             </a>
           </li>
           <li>
@@ -31,7 +21,7 @@ const Footer = props => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Instagram
+              <i class="fab fa-instagram fa-2x" />
             </a>
           </li>
           <li>
@@ -40,10 +30,13 @@ const Footer = props => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              VSCO
+              <i class="fas fa-globe fa-2x" />
             </a>
           </li>
-        </ul> */}
+        </ul>
+        <span className="reactJS">
+          Made with <i class="fas fa-code" />
+        </span>
       </footer>
     </div>
   );
