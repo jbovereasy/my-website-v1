@@ -1,0 +1,39 @@
+// nav {
+//   display: none;
+// }
+
+// @media screen and (min-width: 600px) {
+//   nav {
+//     display: block;
+//     font-family: "Bangers", cursive;
+//     text-align: center;
+//     position: fixed;
+//     top: 0;
+//     background: white;
+//     width: 100%;
+//     z-index: 30;
+//     a {
+//       display: inline-block;
+//       padding: 15px 20px;
+//       font-size: 25px;
+//       font-weight: 700;
+//       z-index: 0;
+//       color: black;
+//       text-decoration: none;
+//       &:visited {
+//         color: black;
+//       }
+//       &:hover {
+//         color: dodgerblue;
+//         text-decoration: underline;
+//       }
+//       &:active {
+//         text-decoration: none;
+//         color: black;
+//       }
+//       &:focus {
+//         text-decoration: black;
+//       }
+//     }
+//   }
+// }
