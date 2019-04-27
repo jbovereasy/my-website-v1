@@ -9,7 +9,7 @@ const AboutMe = props => {
       <div className="container">
         <div className="content">
           <img className="rounded-circle jbaltazar" src={homepic} alt="me" />
-          <div className="personalLinks">
+          <div className="myLinks">
             <a
               href="https://github.com/jbaltazar03"
               target="_blank"
@@ -42,16 +42,19 @@ const AboutMe = props => {
               <i class="far fa-envelope" />
             </a>
           </div>
-          <h3> About Me </h3>
-          <p>
-            Hello, I am John P Baltazar. Graduate student from California State
-            University, Northridge with a degree in Computer Information
-            Technology and minor in Geographic Information Science. I currently
-            work as a Cloud Engineer at Warner Bros. Previously worked as Web
-            Developer and Operations at my university. During my free time, I
-            like to spend my time outdoors which includes camping, off-roading,
-            and surfing.
-          </p>
+          <div className="bio">
+            <h3> About Me </h3>
+            <p>
+              Hello, I am John P Baltazar. Graduate student from California
+              State University, Northridge with a degree in Computer Information
+              Technology and minor in Geographic Information Science. I
+              currently work as a Cloud Engineer at Warner Bros. Previously
+              worked as Web Developer and Operations at my university. During my
+              free time, I like to spend my time outdoors which includes
+              camping, hitting the driving range, and surfing. 🏄🏽 Anything to
+              get disconnected from technology.
+            </p>
+          </div>
           <a
             className="resume"
             href={resume}

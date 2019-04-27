@@ -35,7 +35,14 @@ const Footer = props => {
           </li>
         </ul>
         <span className="reactJS">
-          Made with <i class="fas fa-code" />
+          Made with{" "}
+          <a
+            href="https://github.com/jbaltazar03/my-website-v1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fas fa-code" />
+          </a>
         </span>
       </footer>
     </div>
@@ -43,3 +50,5 @@ const Footer = props => {
 };
 
 export default Footer;
+
+//          Made with <i class="fas fa-code"></i>

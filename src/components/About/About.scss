@@ -1,6 +1,6 @@
 #aboutPage {
   padding-top: 100px;
-  padding-bottom: 60px;
+  padding-bottom: 19%;
   background: black;
   color: white;
   position: relative;
@@ -37,11 +37,14 @@
   padding: 2%;
 }
 
-.personalLinks {
+.bio {
+  padding: 3%;
+}
+
+.myLinks {
   a {
     i {
       margin: 0 0.3%;
-
       font-size: 40px;
       color: #fff;
       &:hover {

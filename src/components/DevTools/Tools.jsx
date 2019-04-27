@@ -7,7 +7,9 @@ import "./Tools.scss";
 const Tools = props => {
   return (
     <div id="skills">
-      <h1>Dev Stack</h1>
+      <h1>
+        {"<"}Dev Stack {"/>"}
+      </h1>
       <div className="container">
         <div className="frontEnd">
           <h3>FrontEnd</h3>
