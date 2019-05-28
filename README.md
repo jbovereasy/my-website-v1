@@ -1,3 +1,3 @@
-# Personal website made with React and AWS
+# Personal website made with React and hosted on AWS
 
-Currently hosted on https://johnbaltazar.com
+Site: https://johnbaltazar.com
