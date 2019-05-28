@@ -10,46 +10,43 @@ const Tools = props => {
       <h1>
         {"<"}Dev Stack {"/>"}
       </h1>
-      <div className="container">
-        <div className="frontEnd">
+      <div className="container dev-cont">
+        <div className="frontEnd grid">
           <h3>FrontEnd</h3>
           <i className="devicon-html5-plain-wordmark colored" />
           <i className="devicon-css3-plain-wordmark colored" />
-          <i class="devicon-bootstrap-plain colored" />
-          <i class="devicon-javascript-plain colored" />
+          <i className="devicon-bootstrap-plain colored" />
+          <i className="devicon-javascript-plain colored" />
           <i className="devicon-react-original-wordmark colored" />
         </div>
-        <div className="backEnd">
+        <div className="backEnd grid">
           <h3>BackEnd</h3>
-          <i class="devicon-nodejs-plain-wordmark colored" />
-          <i class="devicon-mongodb-plain colored" />
-          <i class="devicon-php-plain colored" />
-          <i class="devicon-postgresql-plain colored" />
-          <i class="devicon-mysql-plain colored" />
-          <i class="devicon-laravel-plain colored" />
+          <i className="devicon-nodejs-plain-wordmark colored" />
+          <i className="devicon-mongodb-plain colored" />
+          <i className="devicon-php-plain colored" />
+          <i className="devicon-postgresql-plain colored" />
+          <i className="devicon-laravel-plain colored" />
         </div>
-        <div className="devTools">
-          <h3>DevTools</h3>
-          {/* <img className="toolSize" src={Vagrant} alt="vagrant" />
-          <img className="toolSize" src={Terraform} alt="terraform" />
-          <img className="toolSize1" src={Ansible} alt="ansible" /> */}
-          <i class="devicon-amazonwebservices-plain-wordmark colored" />
-          <i class="devicon-docker-plain colored" />
-          <i class="devicon-linux-plain" />
-          <i class="devicon-visualstudio-plain colored" />
-          <i class="devicon-slack-plain colored" />
-          <i class="devicon-git-plain colored" />
-          <i class="devicon-apache-plain colored" />
-          <i class="devicon-nginx-original colored" />
-          <i class="devicon-vim-plain colored" />
+        <div className="devTools grid">
+          <h3>Tools</h3>
+          <i className="devicon-python-plain colored" />
+          <i className="devicon-amazonwebservices-plain-wordmark colored" />
+          <i className="devicon-docker-plain colored" />
+          <i className="devicon-github-plain" />
+
+          <i className="devicon-wordpress-plain colored" />
         </div>
-        <div className="others">
+        <div className="others grid">
           <h3>Others</h3>
-          <i class="devicon-python-plain colored" />
-          <i class="devicon-illustrator-plain colored" />
-          <i class="devicon-photoshop-plain colored" />
-          <i class="devicon-wordpress-plain colored" />
-          <p>ArcGIS, QGis, Cisco Meraki, Postman </p>
+
+          <i className="devicon-hashicorp-plain">
+            <img src={Vagrant} alt="vagrant" />
+            <img src={Terraform} alt="terraform" />
+            <img src={Ansible} alt="ansible" />
+          </i>
+          <i className="devicon-illustrator-plain colored" />
+          <i className="devicon-photoshop-plain colored" />
+          <p>ChatOps, ArcGIS and QGis</p>
         </div>
       </div>
     </div>

@@ -2,6 +2,14 @@ nav {
   display: none;
 }
 
+.disabled-link {
+  color: grey;
+  &:hover {
+    color: grey;
+    text-decoration: line-through;
+  }
+}
+
 @media screen and (min-width: 600px) {
   nav {
     display: block;

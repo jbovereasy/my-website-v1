@@ -8,7 +8,7 @@ const AboutMe = props => {
     <div id="aboutPage">
       <div className="container">
         <div className="content">
-          <img className="rounded-circle jbaltazar" src={homepic} alt="me" />
+          <img className="jbaltazar" src={homepic} alt="me" />
           <div className="myLinks">
             <a
               href="https://github.com/jbaltazar03"
@@ -48,18 +48,18 @@ const AboutMe = props => {
               Hello, I am John P Baltazar. Graduate student from California
               State University, Northridge with a degree in Computer Information
               Technology and minor in Geographic Information Science. I
-              currently work as a Cloud Engineer at Warner Bros. Previously
-              worked as Web Developer and Operations at my university. During my
-              free time, I like to spend my time outdoors which includes
-              camping, hitting the driving range, and surfing. 🏄🏽 Anything to
-              get disconnected from technology.
+              currently work as a Cloud Engineer at Warner Bros, and previously
+              worked as Web Developer & Operations at Cal State Northridge.
+              During my free time, I like to spend my time outdoors which
+              includes camping, hitting the driving range, and surfing. Anything
+              to disconnect from technology.
             </p>
           </div>
           <a
             className="resume"
             href={resume}
             target="_blank"
-            rel="noopner noreferrer"
+            rel="noopener noreferrer"
           >
             <span className="hoverResume" popuptext="Resume">
               <i class="fas fa-file-pdf fa-2x" />

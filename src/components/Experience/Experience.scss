@@ -1,6 +1,8 @@
 $heading-color: dodgerblue;
 #experience {
-  padding-top: 80px;
+  padding-top: 65px;
+  padding-bottom: 0;
+  margin: 0 auto;
   //   background: black;
   color: black;
 }
@@ -12,6 +14,179 @@ $heading-color: dodgerblue;
   justify-content: center;
 }
 
-// .education {
-
+// .box-logo {
+//   background: gray;
+//   margin: 20px 500px;
 // }
+
+.rounded-circle {
+  margin: 0.5% 0.5%;
+  border: 4px solid;
+  height: 165px;
+  width: 165px;
+}
+
+.university {
+  text-align: left;
+  font-family: "SchoolBell", sans-serif;
+}
+
+#ed-font {
+  font-family: "Comfortaa", sans-serif;
+}
+
+.exp-logo {
+  border-radius: 50%;
+  border-color: white;
+}
+
+.col-left-exp {
+  // background-color: #efefef;
+  padding-top: 10px;
+  padding-left: 30%;
+  height: 200px;
+  width: 20%;
+  float: left;
+}
+
+.left-exp {
+  // background-color: #efefef;
+  padding-top: 10px;
+  height: 200px;
+  width: 49%;
+  float: left;
+}
+.right-exp {
+  // background-color: #efefef;
+  height: 200px;
+  width: 49%;
+  float: right;
+}
+
+.outer-exp {
+  // background-color: #efefef;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+}
+
+.workExp {
+  // background-color: #efefef;
+  font-family: "Comfortaa", sans-serif;
+  padding: 1% 0 2% 0;
+  width: 67%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .col-left-exp {
+    // background-color: #efefef;
+    height: 200px;
+    width: 47%;
+    float: left;
+  }
+  .right-exp {
+    // background-color: #efefef;
+    height: 200px;
+    width: 47%;
+    float: right;
+  }
+  .workExp {
+    padding: auto;
+  }
+
+  .col-left-exp {
+    // background-color: #efefef;
+    img {
+      height: 160px;
+      width: 160px;
+    }
+    // padding-top: 10px;
+    padding-left: 10%;
+    height: 200px;
+    width: 20%;
+    float: left;
+  }
+  .exp-container {
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+
+  // .box-logo {
+  //   background: white;
+  //   margin: 0 auto;
+  // }
+}
+
+@media screen and (max-width: 1024px) {
+  .right-exp {
+    // background-color: #efefef;
+    height: 200px;
+    width: 47%;
+    float: right;
+  }
+  .workExp {
+    padding: 5% 0;
+  }
+
+  .col-left-exp {
+    height: 200px;
+    width: 47%;
+    padding: 0;
+    // float: left;
+    img {
+      height: 160px;
+      width: 160px;
+    }
+  }
+  .exp-container {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+  }
+
+  // .box-logo {
+  //   background: white;
+  //   margin: 0 auto;
+  // }
+}
+
+@media screen and (max-width: 700px) {
+  .right-exp {
+    // background-color: #efefef;
+    height: 200px;
+    width: 47%;
+    float: right;
+  }
+  .workExp {
+    padding: 20% 10% 10% 0;
+  }
+
+  .col-left-exp {
+    height: 200px;
+    width: 47%;
+    padding: 0;
+    // float: left;
+    img {
+      height: 160px;
+      width: 160px;
+    }
+  }
+  .exp-container {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+  }
+
+  // .box-logo {
+  //   background: white;
+  //   margin: 0 auto;
+  // }
+}

@@ -1,14 +1,64 @@
 #skills {
+  font-family: "Comfortaa", sans-serif;
   background: black;
   color: white;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
-.toolSize {
-  height: 30px;
-  width: 60px;
+.colored {
+  font-size: 3rem;
+  margin: 1px;
 }
-.toolSize1 {
-  height: 30px;
-  width: 30px;
+
+.devicon-linux-plain,
+.devicon-github-plain {
+  font-size: 3rem;
+  margin: 0px;
+}
+
+.devicon-hashicorp-plain {
+  font-size: 2em;
+}
+
+.grid {
+  margin: auto;
+  padding: auto;
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.dev-cont {
+  // margin: auto;
+  img {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+  }
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #skills {
+    padding-bottom: 30%;
+  }
+
+  .colored {
+    font-size: 60px;
+    margin: auto;
+  }
+
+  .dev-cont {
+    margin: auto;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    img {
+      width: 60px;
+      height: 60px;
+      padding-bottom: 0;
+    }
+  }
 }

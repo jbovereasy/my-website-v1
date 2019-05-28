@@ -11,9 +11,7 @@ const Navbar = props => {
       <a className="page-scroll" href="#experience">
         Experience
       </a>
-      <a className="page-scroll" href="#portfolio">
-        Portfolio
-      </a>
+      <a className="disabled-link">Portfolio</a>
       <a href={resume} target="_blank" rel="noopner noreferrer">
         Resume
       </a>
