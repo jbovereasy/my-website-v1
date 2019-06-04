@@ -46,13 +46,11 @@ const AboutMe = props => {
             <h3> About Me </h3>
             <p>
               Hello, I am John P Baltazar. Graduate student from California
-              State University, Northridge with a degree in Computer Information
-              Technology and minor in Geographic Information Science. I
-              currently work as a Cloud Engineer at Warner Bros, and previously
-              worked as Web Developer & Operations at Cal State Northridge.
-              During my free time, I like to spend my time outdoors which
-              includes camping, hitting the driving range, and surfing. Anything
-              to disconnect from technology.
+              State University, Northridge with a B.S. degree in Computer
+              Information Technology and minor in Geographic Information
+              Science. During my free time, I like to spend my time outdoors
+              which includes camping, hitting the driving range, and surfing.
+              Anything to disconnect from technology.
             </p>
           </div>
           <a

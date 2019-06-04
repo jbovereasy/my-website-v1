@@ -32,7 +32,7 @@ const Experience = props => {
           </div>
 
           <div className="workExp">
-            <h1>Work Experience</h1>
+            <h1 className="worktitle">Work Experience</h1>
             <div className="outer-exp">
               <div className="right-exp">
                 <img

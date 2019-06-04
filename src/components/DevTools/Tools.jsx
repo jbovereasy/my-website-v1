@@ -28,12 +28,11 @@ const Tools = props => {
           <i className="devicon-laravel-plain colored" />
         </div>
         <div className="devTools grid">
-          <h3>Tools</h3>
+          <h3>DevTools</h3>
           <i className="devicon-python-plain colored" />
           <i className="devicon-amazonwebservices-plain-wordmark colored" />
           <i className="devicon-docker-plain colored" />
           <i className="devicon-github-plain" />
-
           <i className="devicon-wordpress-plain colored" />
         </div>
         <div className="others grid">
